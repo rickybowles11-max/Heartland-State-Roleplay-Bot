@@ -1,0 +1,22 @@
+{
+  "name": "heartland-bot",
+  "version": "1.0.0",
+  "description": "Heartland State Roleplay Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.8"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true
+  }
+}
